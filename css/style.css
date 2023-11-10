@@ -191,7 +191,7 @@ h1{
   }
 
   body {
-    background-image: url(https://img.freepik.com/premium-vector/herringbone-tile-pattern-diagonal-pink-ceramic-bricks-seamless-background_501173-661.jpg); 
+    background-image: url("images/cupcake.png"); 
     background-size: cover; 
     background-repeat: no-repeat;
   }
