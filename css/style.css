@@ -196,6 +196,7 @@ h1{
 
   .main-content-area {
     display: flex;
+    background-color: #ffdede;
   }
   
   .content {
