@@ -147,8 +147,14 @@ h1{
      bottom: -5%;
   }
 
-@media screen and (min-width: 1024px) {
-  .topnav {
+  @media screen and (min-width: 1024px) {
+    .topnav {
+      background-color: #ffdede;
+      overflow: hidden;
+      text-align: center; 
+    }
+  
+    .topnav a {
     background-color: #ffdede;
     overflow: hidden;
   }
@@ -211,4 +217,4 @@ h1{
     margin: 20px auto; 
     }
   
-  }
+  
