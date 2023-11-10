@@ -205,13 +205,6 @@ h1{
     padding: 20px;
   }
   
-  .large-image {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
   .wide-heading {
     text-align: center;
     margin: 20px auto; 
