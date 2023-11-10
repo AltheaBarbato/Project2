@@ -191,6 +191,7 @@ h1{
   }
 
   body {
+    background-image: url("images/cupcake.png"); 
     background-size: cover; 
     background-repeat: no-repeat;
   }
