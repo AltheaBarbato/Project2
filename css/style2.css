@@ -4,8 +4,6 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  /*background-image: url("images/background.jpg"); */
-
 }
 
 p, a {
@@ -147,8 +145,14 @@ h1{
      bottom: -5%;
   }
 
-@media screen and (min-width: 1024px) {
-  .topnav {
+  @media screen and (min-width: 1024px) {
+    .topnav {
+      background-color: #ffdede;
+      overflow: hidden;
+      text-align: center; 
+    }
+  
+    .topnav a {
     background-color: #ffdede;
     overflow: hidden;
   }
@@ -185,13 +189,14 @@ h1{
   }
 
   body {
-    background-image: url(https://wallpapercave.com/wp/0RiWTwx.png); 
+    background-color: #ffdede;
     background-size: cover; 
     background-repeat: no-repeat;
   }
 
   .main-content-area {
     display: flex;
+    background-color: white;
   }
   
   .content {
@@ -199,15 +204,10 @@ h1{
     padding: 20px;
   }
   
-  .large-image {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
   .wide-heading {
     text-align: center;
     margin: 20px auto; 
     }
+  }
+}
   
