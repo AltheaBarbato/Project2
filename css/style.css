@@ -14,11 +14,7 @@ h1, h2 {
   font-family: 'Parisienne', 'Times New Roman', cursive;
 }
 h1{
-<<<<<<< HEAD
-  font-size: 2.5em;
-=======
   font-size: 1.5em;
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 }
 
 .topnav {
@@ -92,8 +88,6 @@ h1{
   background-color: #95ccba;
 }
 
-<<<<<<< HEAD
-=======
 /* wedding picture slideshow */
 * {box-sizing:border-box}
 
@@ -122,18 +116,14 @@ h1{
   user-select: none;
 }
 
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-<<<<<<< HEAD
-=======
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 
 .text {
   background-color: black;
@@ -160,8 +150,6 @@ h1{
  
 }
 
-<<<<<<< HEAD
-=======
 .dot, .birthdayDot {
   cursor: pointer;
   height: 15px;
@@ -182,14 +170,11 @@ h1{
   animation-duration: 1.5s;
 }
 
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
-<<<<<<< HEAD
-=======
 .wedding-slideshow img {
   margin-left: auto;
   margin-right: auto;
@@ -230,7 +215,6 @@ h1{
   background-color: rgba(0,0,0,0.8);
 }
 
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 .footer {
   bottom: 0; 
   left: 0; 
@@ -252,7 +236,6 @@ h1{
      bottom: -5%;
   }
 
-<<<<<<< HEAD
   @media screen and (min-width: 1024px) {
     .topnav {
       background-color: #ffdede;
@@ -261,10 +244,6 @@ h1{
     }
   
     .topnav a {
-=======
-@media screen and (min-width: 1024px) {
-  .topnav {
->>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
     background-color: #ffdede;
     overflow: hidden;
   }
@@ -573,7 +552,7 @@ h1{
     padding: 20px;
   }
   
-  .wide-heading {
+  .wide1-heading {
     text-align: center;
     margin: 20px auto; 
     }
