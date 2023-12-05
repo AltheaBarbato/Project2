@@ -14,7 +14,11 @@ h1, h2 {
   font-family: 'Parisienne', 'Times New Roman', cursive;
 }
 h1{
+<<<<<<< HEAD
   font-size: 2.5em;
+=======
+  font-size: 1.5em;
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 }
 
 .topnav {
@@ -88,11 +92,48 @@ h1{
   background-color: #95ccba;
 }
 
+<<<<<<< HEAD
+=======
+/* wedding picture slideshow */
+* {box-sizing:border-box}
+
+.wedding-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+<<<<<<< HEAD
+=======
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 
 .text {
   background-color: black;
@@ -119,11 +160,77 @@ h1{
  
 }
 
+<<<<<<< HEAD
+=======
+.dot, .birthdayDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
+<<<<<<< HEAD
+=======
+.wedding-slideshow img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.birthdays {
+  text-align: center;
+}
+
+.birthday-slideshow img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.prevB, .nextB {
+  cursor: pointer;
+  position: absolute;
+  bottom: -45%;
+  width: auto;
+  margin:-10px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.nextB {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prevB:hover, .nextB:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
 .footer {
   bottom: 0; 
   left: 0; 
@@ -145,6 +252,7 @@ h1{
      bottom: -5%;
   }
 
+<<<<<<< HEAD
   @media screen and (min-width: 1024px) {
     .topnav {
       background-color: #ffdede;
@@ -153,6 +261,10 @@ h1{
     }
   
     .topnav a {
+=======
+@media screen and (min-width: 1024px) {
+  .topnav {
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
     background-color: #ffdede;
     overflow: hidden;
   }
@@ -188,6 +300,7 @@ h1{
     display: none;
   }
 
+<<<<<<< HEAD
   body {
     background-color: #ffdede;
     background-size: cover; 
@@ -208,5 +321,48 @@ h1{
     text-align: center;
     margin: 20px auto; 
     }
+=======
+  #weddingcontent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .weddings {
+    flex: 2;
+  }
+
+  .wedding-slideshow{
+    flex: 3;
+  }
+
+  #bdaycontent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .birthdays {
+    flex: 2;
+    text-align: left;
+  }
+
+  .birthday-slideshow{
+    flex: 3;
+  }
+  .prevB, .nextB {
+    cursor: pointer;
+    position: absolute;
+    bottom: -25%;
+    width: auto;
+    margin:-1px;
+    padding:16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+>>>>>>> ce162327bf6d67d4f921d1d1555f78efdd799f2d
   }
 }
